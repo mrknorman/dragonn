@@ -11,6 +11,8 @@ from tensorflow.keras import mixed_precision, layers
 from tensorflow.keras import backend as K
 from tensorflow.data.experimental import AutoShardPolicy
 
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+
 # Local imports:
 import gravyflow as gf
 
@@ -27,32 +29,24 @@ def test_model(
     crop_duration_seconds : float = 0.5
     scale_factor : float = 1.0E21
     patience = 4
-    max_epochs = 4
+    max_epochs = 1000
     minimum_snr = 8
     maximum_snr = 15
-    cache_segments = True
+    cache_segments = False
     ifos = [gf.IFO.L1]
     
-    max_populaton : int = 10
+    max_populaton : int = 100
     max_num_inital_layers : int = 10
     
     num_train_examples : int = int(1.0E5)
-    num_validation_examples : int = int(1.0E2)
-    
-    # Intilise gf.Scaling Method:
-    scaling_method = \
-        gf.ScalingMethod(
-            gf.Distribution(min_=8.0,max_=15.0,type_=gf.DistributionType.UNIFORM),
-            gf.ScalingTypes.SNR
-        )
+    num_validation_examples : int = int(1.0E4)
     
     # Define injection directory path:
     current_dir = Path(os.path.dirname(os.path.abspath(__file__)))
 
     injection_directory_path : Path = \
         Path(current_dir / "injection_parameters")
-    model_path = Path(current_dir / "./models/")
-
+    
     # Intilise Scaling Method:
     scaling_method : gf.ScalingMethod = gf.ScalingMethod(
         gf.Distribution(
@@ -87,6 +81,7 @@ def test_model(
     
     # Initilise noise generator wrapper:
     noise_obtainer: gf.NoiseObtainer = gf.NoiseObtainer(
+        data_directory_path=Path(f"{current_dir}/../../generator_data"),
         ifo_data_obtainer=ifo_data_obtainer,
         noise_type=gf.NoiseType.REAL,
         ifos=ifos
@@ -110,82 +105,165 @@ def test_model(
         "injection_generators" : phenom_d_generator, 
         # Output configuration:
         "input_variables" : input_variables,
-        "output_variables": output_variables
+        "output_variables": output_variables,
     }
 
+    # Setup hyperparameters
     optimizer = gf.HyperParameter(
-            {"type" : "list", "values" : ['adam']}
+            gf.Distribution(
+                type_=gf.DistributionType.CONSTANT, 
+                value="adam"
+            )
         )
     num_layers = gf.HyperParameter(
-            {"type" : "int_range", "values" : [1, max_num_inital_layers]}
+            gf.Distribution(
+                type_=gf.DistributionType.UNIFORM, 
+                min_=2, 
+                max_=max_num_inital_layers+1, 
+                dtype=int
+            )
         )
     batch_size = gf.HyperParameter(
-            {"type" : "list", "values" : [num_examples_per_batch]}
+            gf.Distribution(
+                type_=gf.DistributionType.CONSTANT, 
+                value=num_examples_per_batch
+            )
         )
     activations = gf.HyperParameter(
-            {"type" : "list", "values" : ['relu', 'elu', 'sigmoid', 'tanh']}
+            gf.Distribution(
+                type_=gf.DistributionType.CHOICE, 
+                possible_values=['relu', 'elu', 'sigmoid', 'tanh']
+            )
         )
     d_units = gf.HyperParameter(
-            {"type" : "power_2_range", "values" : [16, 256]}
+            gf.Distribution(
+                type_=gf.DistributionType.UNIFORM, 
+                min_=1, 
+                max_=128, 
+                dtype=int
+            )
         )
     filters = gf.HyperParameter(
-            {"type" : "power_2_range", "values" : [16, 256]}
+            gf.Distribution(
+                type_=gf.DistributionType.UNIFORM,
+                min_=1, 
+                max_=128, 
+                dtype=int
+            )
         )
     kernel_size = gf.HyperParameter(
-            {"type" : "int_range", "values" : [1, 7]}
+            gf.Distribution(
+                type_=gf.DistributionType.UNIFORM, 
+                min_=1, 
+                max_=128, 
+                dtype=int
+            )
         )
     strides = gf.HyperParameter(
-            {"type" : "int_range", "values" : [1, 7]}
+            gf.Distribution(
+                type_=gf.DistributionType.UNIFORM, 
+                min_=1, 
+                max_=16, 
+                dtype=int
+            )
         )
     learning_rate = gf.HyperParameter(
-            {"type" : "log_range", "values" : [1E-7, 1E-3]}
+            gf.Distribution(
+                type_=gf.DistributionType.LOG, 
+                min_=10E-7, 
+                max_=10E-3
+            )
         )
-
-    param_limits = {
-        "Dense" : gf.DenseLayer(d_units,  activations),
-        "Convolutional": gf.ConvLayer(
-            filters, kernel_size, activations, strides
+    pool_size = gf.HyperParameter(
+            gf.Distribution(
+                type_=gf.DistributionType.UNIFORM, 
+                min_=1, 
+                max_=32, 
+                dtype=int
+            )
+        )
+    pool_stride = gf.HyperParameter(
+            gf.Distribution(
+                type_=gf.DistributionType.UNIFORM, 
+                min_=1, 
+                max_=32, 
+                dtype=int
+            )
+        )
+    dropout_value = gf.HyperParameter(
+            gf.Distribution(
+                type_=gf.DistributionType.UNIFORM,
+                min_=0, 
+                max_=1
+            )
+        )
+    default_layer_type = gf.HyperParameter(
+        gf.Distribution(
+            type_=gf.DistributionType.CHOICE,
+            possible_values=[
+                gf.DenseLayer(d_units, activations),
+                gf.ConvLayer(filters, kernel_size, activations, strides),
+                gf.PoolLayer(pool_size, pool_stride),
+                gf.DropLayer(dropout_value),
+            ]
         ),
-        "Whiten" : gf.WhitenLayer()
-    }
+    )
+    whiten_layer = gf.HyperParameter(
+        gf.Distribution(
+            type_=gf.DistributionType.CHOICE,
+            possible_values=[gf.WhitenLayer()]
+        ),
+    )
 
-    layers = [(["Whiten"], param_limits) ]
+    layers = [whiten_layer]
     layers += [
-        (["Dense", "Convolutional", "Pooling"], deepcopy(param_limits)) for i in range(max_num_inital_layers)
+        deepcopy(default_layer_type) for i in range(max_num_inital_layers)
     ]
 
-    genome_template = {
-        'base' : {
-            'optimizer'  : optimizer,
-            'num_layers' : num_layers,
-            'batch_size' : batch_size
-        },
-        'layers' : layers
-    }
+    genome = gf.ModelGenome(
+        optimizer=optimizer,
+        num_layers=num_layers,
+        batch_size=batch_size,
+        learning_rate=learning_rate,
+        layer_genomes=layers
+    )
+
+    genome.randomize()
+    genome.mutate(0.05)
 
     training_config = {
         "num_examples_per_epoc" : num_train_examples,
         "num_validation_examples" : num_validation_examples,
         "patience" : patience,
-        "learning_rate" : learning_rate,
-        "max_epochs" : max_epochs,
-        "model_path" : model_path
+        "max_epochs" : max_epochs
     }
     
     population = gf.Population(
-        100, 
-        100, 
-        genome_template,
+        max_populaton, 
+        max_populaton, 
+        genome,
         training_config,
         dataset_arguments
     )
-    quit()
     population.train(
         100, 
-        dataset_arguments
+        dataset_arguments,
+        num_validation_examples,
+        num_examples_per_batch
     )
         
 if __name__ == "__main__":
+
+    gf.Defaults.set(
+        seed=1000,
+        num_examples_per_generation_batch=256,
+        num_examples_per_batch=32,
+        sample_rate_hertz=8196.0,
+        onsource_duration_seconds=1.0,
+        offsource_duration_seconds=16.0,
+        crop_duration_seconds=0.5,
+        scale_factor=1.0E21
+    )
     
     # ---- User parameters ---- #
     # Set logging level:
@@ -194,7 +272,10 @@ if __name__ == "__main__":
     memory_to_allocate_tf = 8000    
     # Test Genetic Algorithm Optimiser:
     with gf.env(
-            memory_to_allocate_tf=memory_to_allocate_tf
+            memory_to_allocate_tf=memory_to_allocate_tf,
+            gpus="5"
         ):
 
         test_model()
+    
+        os._exit(1)
