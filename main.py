@@ -35,11 +35,11 @@ def test_model(
     cache_segments = False
     ifos = [gf.IFO.L1]
     
-    max_populaton : int = 100
+    max_population : int = 100
     max_num_inital_layers : int = 10
     
-    num_train_examples : int = int(1.0E5)
-    num_validation_examples : int = int(1.0E4)
+    num_train_examples : int = int(512)
+    num_validation_examples : int = int(512)
     
     # Define injection directory path:
     current_dir = Path(os.path.dirname(os.path.abspath(__file__)))
@@ -64,6 +64,14 @@ def test_model(
         network = None # Single detector
     )
     phenom_d_generator.injection_chance = 0.5
+
+    # Load glitch config:
+    wnb_generator : gf.WNBGenerator = gf.WaveformGenerator.load(
+        injection_directory_path / "baseline_wnb.json", 
+        scaling_method=scaling_method,    
+        network = None # Single detector
+    )
+    wnb_generator.injection_chance = 0.5
 
     # Setup ifo data acquisition object:
     ifo_data_obtainer : gf.IFODataObtainer = gf.IFODataObtainer(
@@ -102,19 +110,140 @@ def test_model(
         # Noise: 
         "noise_obtainer" : noise_obtainer,
         # Injections:
-        "injection_generators" : phenom_d_generator, 
+        "injection_generators" : [phenom_d_generator, wnb_generator], 
         # Output configuration:
         "input_variables" : input_variables,
         "output_variables": output_variables,
     }
 
     # Setup hyperparameters
+
+    # Training genes:
     optimizer = gf.HyperParameter(
             gf.Distribution(
                 type_=gf.DistributionType.CONSTANT, 
                 value="adam"
             )
         )
+    batch_size = gf.HyperParameter(
+            gf.Distribution(
+                type_=gf.DistributionType.POW_TWO, 
+                min_=16,
+                max_=128,
+                dtype=int
+            )
+        )
+    learning_rate = gf.HyperParameter(
+            gf.Distribution(
+                type_=gf.DistributionType.LOG, 
+                min_=10E-7, 
+                max_=10E-3
+            )
+        )
+    
+    # Injection genes:
+    injection_generators = [gf.HyperInjectionGenerator(
+        min_ = gf.HyperParameter(
+            gf.Distribution(
+                type_=gf.DistributionType.UNIFORM, 
+                min_=0, 
+                max_=100
+            ) 
+        ),
+        max_ = gf.HyperParameter(
+            gf.Distribution(
+                    type_=gf.DistributionType.UNIFORM, 
+                    min_=0, 
+                    max_=100
+                )
+        ),
+        mean = gf.HyperParameter(
+            gf.Distribution(
+                type_=gf.DistributionType.UNIFORM, 
+                min_=0, 
+                max_=100
+            )
+        ),
+        std = gf.HyperParameter(
+            gf.Distribution(
+                type_=gf.DistributionType.UNIFORM, 
+                min_=0, 
+                max_=100
+            )
+        ),
+        distribution = gf.HyperParameter(
+            gf.Distribution(
+                type_=gf.DistributionType.CHOICE, 
+                possible_values=[
+                    gf.DistributionType.UNIFORM,
+                    gf.DistributionType.LOG,
+                    gf.DistributionType.NORMAL
+                ]
+            )
+        ),
+        chance = gf.HyperParameter(
+            gf.Distribution(
+                type_=gf.DistributionType.UNIFORM, 
+                min_=0, 
+                max_=1
+            )
+        ),
+        generator = gf.HyperParameter(
+                gf.Distribution(
+                    type_=gf.DistributionType.CONSTANT, 
+                    value = gen
+            )
+        )
+    ) for gen in [phenom_d_generator, wnb_generator] ]
+
+    # Noise genes:
+    noise_type = gf.HyperParameter(
+        gf.Distribution(
+            type_=gf.DistributionType.CHOICE, 
+            possible_values=[
+                gf.NoiseType.WHITE,
+                gf.NoiseType.COLORED,
+                gf.NoiseType.PSEUDO_REAL,
+                gf.NoiseType.REAL,
+            ],
+        )
+    )
+    exclude_real_glitches = gf.HyperParameter(
+        gf.Distribution(
+            type_=gf.DistributionType.CHOICE, 
+            possible_values=[
+                True,
+                False
+            ]
+        )
+    )
+
+    # Temporal Genes:
+    onsource_duration_seconds = gf.HyperParameter(
+        gf.Distribution(
+            type_=gf.DistributionType.UNIFORM, 
+            min_=0.2,
+            max_=4.0
+        )
+    )
+    offsource_duration_seconds = gf.HyperParameter(
+        gf.Distribution(
+            type_=gf.DistributionType.UNIFORM, 
+            min_=1.0,
+            max_=32.0
+        )
+    )
+    sample_rate_hertz = gf.HyperParameter(
+        gf.Distribution(
+            type_=gf.DistributionType.POW_TWO, 
+            min_=512,
+            max_=8196,
+            dtype=int
+        )
+    )
+
+    #Feature engineering layers:
+
     num_layers = gf.HyperParameter(
             gf.Distribution(
                 type_=gf.DistributionType.UNIFORM, 
@@ -123,16 +252,19 @@ def test_model(
                 dtype=int
             )
         )
-    batch_size = gf.HyperParameter(
-            gf.Distribution(
-                type_=gf.DistributionType.CONSTANT, 
-                value=num_examples_per_batch
-            )
-        )
     activations = gf.HyperParameter(
             gf.Distribution(
                 type_=gf.DistributionType.CHOICE, 
-                possible_values=['relu', 'elu', 'sigmoid', 'tanh']
+                possible_values=[
+                    'relu', 
+                    'elu', 
+                    'sigmoid', 
+                    'tanh', 
+                    'selu', 
+                    'gelu',
+                    'swish',
+                    'softmax'
+                ]
             )
         )
     d_units = gf.HyperParameter(
@@ -163,15 +295,16 @@ def test_model(
             gf.Distribution(
                 type_=gf.DistributionType.UNIFORM, 
                 min_=1, 
-                max_=16, 
+                max_=128, 
                 dtype=int
             )
         )
-    learning_rate = gf.HyperParameter(
+    dilation = gf.HyperParameter(
             gf.Distribution(
-                type_=gf.DistributionType.LOG, 
-                min_=10E-7, 
-                max_=10E-3
+                type_=gf.DistributionType.UNIFORM, 
+                min_=0, 
+                max_=64, 
+                dtype=int
             )
         )
     pool_size = gf.HyperParameter(
@@ -202,7 +335,7 @@ def test_model(
             type_=gf.DistributionType.CHOICE,
             possible_values=[
                 gf.DenseLayer(d_units, activations),
-                gf.ConvLayer(filters, kernel_size, activations, strides),
+                gf.ConvLayer(filters, kernel_size, activations, strides, dilation),
                 gf.PoolLayer(pool_size, pool_stride),
                 gf.DropLayer(dropout_value),
             ]
@@ -211,7 +344,7 @@ def test_model(
     whiten_layer = gf.HyperParameter(
         gf.Distribution(
             type_=gf.DistributionType.CHOICE,
-            possible_values=[gf.WhitenLayer()]
+            possible_values=[gf.WhitenLayer(), gf.WhitenPassLayer()]
         ),
     )
 
@@ -225,6 +358,12 @@ def test_model(
         num_layers=num_layers,
         batch_size=batch_size,
         learning_rate=learning_rate,
+        injection_generators=injection_generators,
+        noise_type=noise_type,
+        exclude_glitches=exclude_real_glitches,
+        onsource_duration_seconds=onsource_duration_seconds,
+        offsource_duration_seconds=offsource_duration_seconds,
+        sample_rate_hertz=sample_rate_hertz,
         layer_genomes=layers
     )
 
@@ -239,15 +378,15 @@ def test_model(
     }
     
     population = gf.Population(
-        max_populaton, 
-        max_populaton, 
+        max_population, 
+        max_population, 
         genome,
         training_config,
-        dataset_arguments
+        deepcopy(dataset_arguments)
     )
     population.train(
         100, 
-        dataset_arguments,
+        deepcopy(dataset_arguments),
         num_validation_examples,
         num_examples_per_batch
     )
