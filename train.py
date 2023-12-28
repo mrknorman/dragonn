@@ -22,7 +22,7 @@ def train_genome(
         model_name : str, 
         cache_segments : bool = True,
         # Training Arguments:
-        patience : int = 3,
+        patience : int = 1,
         learning_rate : float = 1.0E-4,
         max_epochs : int = 1000,
         model_path : Path = None,
@@ -284,7 +284,7 @@ if __name__ == "__main__":
         seed=1000,
         num_examples_per_generation_batch=256,
         num_examples_per_batch=32,
-        sample_rate_hertz=8196.0,
+        sample_rate_hertz=2048.0,
         onsource_duration_seconds=1.0,
         offsource_duration_seconds=16.0,
         crop_duration_seconds=0.5,

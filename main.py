@@ -28,7 +28,7 @@ def test_model(
     offsource_duration_seconds : float = 16.0
     crop_duration_seconds : float = 0.5
     scale_factor : float = 1.0E21
-    patience = 4
+    patience = 1
     max_epochs = 1000
     minimum_snr = 8
     maximum_snr = 15
@@ -397,7 +397,7 @@ if __name__ == "__main__":
         seed=1000,
         num_examples_per_generation_batch=256,
         num_examples_per_batch=32,
-        sample_rate_hertz=8196.0,
+        sample_rate_hertz=2048.0,
         onsource_duration_seconds=1.0,
         offsource_duration_seconds=16.0,
         crop_duration_seconds=0.5,
@@ -408,11 +408,11 @@ if __name__ == "__main__":
     # Set logging level:
     logging.basicConfig(level=logging.INFO)
 
-    memory_to_allocate_tf = 8000    
+    memory_to_allocate_tf = 5000    
     # Test Genetic Algorithm Optimiser:
     with gf.env(
             memory_to_allocate_tf=memory_to_allocate_tf,
-            gpus="5"
+            gpus="6"
         ):
 
         test_model()
