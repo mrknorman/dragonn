@@ -1,0 +1,36 @@
+Attempt 2: Restarting training from where we left off...
+path /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_44/history.hdf5
+path /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_44/history.hdf5
+path /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_44/history.hdf5
+{'binary_accuracy': [0.70703125], 'loss': [0.6074169874191284], 'val_binary_accuracy': [0.474609375], 'val_loss': [0.9144923686981201]}
+Epoch 2/1000
+Data saved to new file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_44/history.hdf5
+
+Best model so far had a value of: 0.6925356984138489 at Epoch: 1 which was 0 epochs ago.
+3125/3125 - 418s - loss: 0.6945 - binary_accuracy: 0.5076 - val_loss: 0.6925 - val_binary_accuracy: 0.5134 - 418s/epoch - 134ms/step
+Epoch 3/1000
+Data saved to new file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_44/history.hdf5
+
+Best model so far had a value of: 0.6925356984138489 at Epoch: 1 which was 1 epochs ago.
+3125/3125 - 380s - loss: 0.6922 - binary_accuracy: 0.5229 - val_loss: 0.6952 - val_binary_accuracy: 0.5105 - 380s/epoch - 122ms/step
+Data appended to /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_44/metrics
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_44/validation_data.h5 was opened in w mode.
+Calculating efficiency scores for model_44...
+7936/7936 - 986s - 986s/epoch - 124ms/step
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_44/validation_data.h5 was opened in a mode.
+Done
+Calculating FAR scores for model_44...
+3125/3125 - 275s - 275s/epoch - 88ms/step
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_44/validation_data.h5 was opened in a mode.
+Saving FAR Scores!
+Done
+Collecting ROC data for model_44...
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_44/validation_data.h5 was opened in a mode.
+Saving ROC data keys.
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_44/validation_data.h5 was opened in r mode.
+3125/3125 - 366s - 366s/epoch - 117ms/step
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_44/validation_data.h5 was opened in a mode.
+Save roc data 8.0!
+Save roc data 8.0_fpr!
+Save roc data 8.0_tpr!
+Done

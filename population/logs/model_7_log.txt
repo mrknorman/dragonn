@@ -1,0 +1,42 @@
+Attempt 2: Restarting training from where we left off...
+path /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_7/history.hdf5
+path /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_7/history.hdf5
+path /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_7/history.hdf5
+{'binary_accuracy': [0.546875], 'loss': [204.10409545898438], 'val_binary_accuracy': [0.5234375], 'val_loss': [249.04232788085938]}
+Epoch 2/1000
+Data saved to new file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_7/history.hdf5
+
+Best model so far had a value of: 29.579833984375 at Epoch: 1 which was 0 epochs ago.
+3125/3125 - 468s - loss: 129.5309 - binary_accuracy: 0.4999 - val_loss: 29.5798 - val_binary_accuracy: 0.5070 - 468s/epoch - 150ms/step
+Epoch 3/1000
+Attempt 2: Restarting training from where we left off...
+path /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_7/history.hdf5
+path /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_7/history.hdf5
+path /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_7/history.hdf5
+{'binary_accuracy': [0.546875, 0.49990999698638916], 'loss': [204.10409545898438, 129.5308837890625], 'val_binary_accuracy': [0.5234375, 0.5070112347602844], 'val_loss': [249.04232788085938, 29.579833984375]}
+Epoch 3/1000
+Data saved to new file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_7/history.hdf5
+
+Best model so far had a value of: 29.579833984375 at Epoch: 2 which was 1 epochs ago.
+3125/3125 - 415s - loss: 90.7451 - binary_accuracy: 0.4979 - val_loss: 36.2218 - val_binary_accuracy: 0.4952 - 415s/epoch - 133ms/step
+Data appended to /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_7/metrics
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_7/validation_data.h5 was opened in w mode.
+Calculating efficiency scores for model_7...
+7936/7936 - 953s - 953s/epoch - 120ms/step
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_7/validation_data.h5 was opened in a mode.
+Done
+Calculating FAR scores for model_7...
+3125/3125 - 278s - 278s/epoch - 89ms/step
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_7/validation_data.h5 was opened in a mode.
+Saving FAR Scores!
+Done
+Collecting ROC data for model_7...
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_7/validation_data.h5 was opened in a mode.
+Saving ROC data keys.
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_7/validation_data.h5 was opened in r mode.
+3125/3125 - 357s - 357s/epoch - 114ms/step
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_7/validation_data.h5 was opened in a mode.
+Save roc data 8.0!
+Save roc data 8.0_fpr!
+Save roc data 8.0_tpr!
+Done

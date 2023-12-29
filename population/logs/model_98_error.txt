@@ -1,0 +1,957 @@
+INFO:root:TensorFlow version: 2.12.1, CUDA version: 11.8
+INFO:root:[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+Traceback (most recent call last):
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 307, in <module>
+    if train_genome(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 167, in train_genome
+    model = gf.Model.load(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/model.py", line 855, in load
+    raise ValueError("No default model blueprint exists!")
+ValueError: No default model blueprint exists!
+INFO:root:TensorFlow version: 2.12.1, CUDA version: 11.8
+INFO:root:[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+Traceback (most recent call last):
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 307, in <module>
+    if train_genome(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 167, in train_genome
+    model = gf.Model.load(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/model.py", line 855, in load
+    raise ValueError("No default model blueprint exists!")
+ValueError: No default model blueprint exists!
+INFO:root:TensorFlow version: 2.12.1, CUDA version: 11.8
+INFO:root:[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+Traceback (most recent call last):
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 307, in <module>
+    if train_genome(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 167, in train_genome
+    model = gf.Model.load(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/model.py", line 855, in load
+    raise ValueError("No default model blueprint exists!")
+ValueError: No default model blueprint exists!
+INFO:root:TensorFlow version: 2.12.1, CUDA version: 11.8
+INFO:root:[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+Traceback (most recent call last):
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 307, in <module>
+    if train_genome(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 167, in train_genome
+    model = gf.Model.load(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/model.py", line 855, in load
+    raise ValueError("No default model blueprint exists!")
+ValueError: No default model blueprint exists!
+INFO:root:TensorFlow version: 2.12.1, CUDA version: 11.8
+INFO:root:[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+Traceback (most recent call last):
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 307, in <module>
+    if train_genome(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 167, in train_genome
+    model = gf.Model.load(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/model.py", line 855, in load
+    raise ValueError("No default model blueprint exists!")
+ValueError: No default model blueprint exists!
+INFO:root:TensorFlow version: 2.12.1, CUDA version: 11.8
+INFO:root:[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+Traceback (most recent call last):
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 307, in <module>
+    if train_genome(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 167, in train_genome
+    model = gf.Model.load(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/model.py", line 855, in load
+    raise ValueError("No default model blueprint exists!")
+ValueError: No default model blueprint exists!
+INFO:root:TensorFlow version: 2.12.1, CUDA version: 11.8
+INFO:root:[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+Traceback (most recent call last):
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 307, in <module>
+    if train_genome(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 167, in train_genome
+    model = gf.Model.load(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/model.py", line 855, in load
+    raise ValueError("No default model blueprint exists!")
+ValueError: No default model blueprint exists!
+INFO:root:TensorFlow version: 2.12.1, CUDA version: 11.8
+INFO:root:[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+Traceback (most recent call last):
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 307, in <module>
+    if train_genome(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 167, in train_genome
+    model = gf.Model.load(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/model.py", line 855, in load
+    raise ValueError("No default model blueprint exists!")
+ValueError: No default model blueprint exists!
+INFO:root:TensorFlow version: 2.12.1, CUDA version: 11.8
+INFO:root:[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+Traceback (most recent call last):
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 307, in <module>
+    if train_genome(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 167, in train_genome
+    model = gf.Model.load(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/model.py", line 855, in load
+    raise ValueError("No default model blueprint exists!")
+ValueError: No default model blueprint exists!
+INFO:root:TensorFlow version: 2.12.1, CUDA version: 11.8
+INFO:root:[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+Traceback (most recent call last):
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 307, in <module>
+    if train_genome(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 167, in train_genome
+    model = gf.Model.load(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/model.py", line 855, in load
+    raise ValueError("No default model blueprint exists!")
+ValueError: No default model blueprint exists!
+INFO:root:TensorFlow version: 2.12.1, CUDA version: 11.8
+INFO:root:[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+Traceback (most recent call last):
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 307, in <module>
+    if train_genome(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 167, in train_genome
+    model = gf.Model.load(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/model.py", line 855, in load
+    raise ValueError("No default model blueprint exists!")
+ValueError: No default model blueprint exists!
+INFO:root:TensorFlow version: 2.12.1, CUDA version: 11.8
+INFO:root:[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+Traceback (most recent call last):
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 307, in <module>
+    if train_genome(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 167, in train_genome
+    model = gf.Model.load(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/model.py", line 855, in load
+    raise ValueError("No default model blueprint exists!")
+ValueError: No default model blueprint exists!
+INFO:root:TensorFlow version: 2.12.1, CUDA version: 11.8
+INFO:root:[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+Traceback (most recent call last):
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 307, in <module>
+    if train_genome(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 167, in train_genome
+    model = gf.Model.load(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/model.py", line 855, in load
+    raise ValueError("No default model blueprint exists!")
+ValueError: No default model blueprint exists!
+INFO:root:TensorFlow version: 2.12.1, CUDA version: 11.8
+INFO:root:[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+Traceback (most recent call last):
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 307, in <module>
+    if train_genome(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 167, in train_genome
+    model = gf.Model.load(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/model.py", line 855, in load
+    raise ValueError("No default model blueprint exists!")
+ValueError: No default model blueprint exists!
+INFO:root:TensorFlow version: 2.12.1, CUDA version: 11.8
+INFO:root:[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+Traceback (most recent call last):
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 307, in <module>
+    if train_genome(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 167, in train_genome
+    model = gf.Model.load(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/model.py", line 855, in load
+    raise ValueError("No default model blueprint exists!")
+ValueError: No default model blueprint exists!
+INFO:root:TensorFlow version: 2.12.1, CUDA version: 11.8
+INFO:root:[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+Traceback (most recent call last):
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 307, in <module>
+    if train_genome(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 167, in train_genome
+    model = gf.Model.load(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/model.py", line 855, in load
+    raise ValueError("No default model blueprint exists!")
+ValueError: No default model blueprint exists!
+INFO:root:TensorFlow version: 2.12.1, CUDA version: 11.8
+INFO:root:[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+Traceback (most recent call last):
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 307, in <module>
+    if train_genome(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 167, in train_genome
+    model = gf.Model.load(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/model.py", line 855, in load
+    raise ValueError("No default model blueprint exists!")
+ValueError: No default model blueprint exists!
+INFO:root:TensorFlow version: 2.12.1, CUDA version: 11.8
+INFO:root:[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+Traceback (most recent call last):
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 307, in <module>
+    if train_genome(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 167, in train_genome
+    model = gf.Model.load(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/model.py", line 855, in load
+    raise ValueError("No default model blueprint exists!")
+ValueError: No default model blueprint exists!
+INFO:root:TensorFlow version: 2.12.1, CUDA version: 11.8
+INFO:root:[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+Traceback (most recent call last):
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 307, in <module>
+    if train_genome(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 167, in train_genome
+    model = gf.Model.load(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/model.py", line 855, in load
+    raise ValueError("No default model blueprint exists!")
+ValueError: No default model blueprint exists!
+INFO:root:TensorFlow version: 2.12.1, CUDA version: 11.8
+INFO:root:[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+Traceback (most recent call last):
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 307, in <module>
+    if train_genome(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 167, in train_genome
+    model = gf.Model.load(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/model.py", line 855, in load
+    raise ValueError("No default model blueprint exists!")
+ValueError: No default model blueprint exists!
+INFO:root:TensorFlow version: 2.12.1, CUDA version: 11.8
+INFO:root:[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+INFO:root:Loading model from /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_98
+INFO:root:Resuming from 1, current history : {'binary_accuracy': [0.732421875], 'loss': [0.5908321738243103], 'val_binary_accuracy': [0.5185546875], 'val_loss': [0.893850564956665]}
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.128095e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.432174e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.216952e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.109034e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.130971e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.268347e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.126885e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.151208e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.194056e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.165578e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.030073e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.096537e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.001476e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.258696e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.028158e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.180785e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.519566e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.252382e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.221356e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.161706e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.371481e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.139039e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.351006e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.027160e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.123697e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.103440e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.270178e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.009346e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.146097e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.111828e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.023841e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.099800e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+WARNING:absl:Function `_wrapped_model` contains input name(s) OFFSOURCE, ONSOURCE with unsupported characters which will be renamed to offsource, onsource in the SavedModel.
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op while saving (showing 1 of 1). These functions will not be directly callable after loading.
+WARNING:absl:<keras.saving.legacy.saved_model.load.Reshape object at 0x7f564c6082b0> has the same name 'Reshape' as a built-in Keras object. Consider renaming <class 'keras.saving.legacy.saved_model.load.Reshape'> to avoid naming conflicts when loading with `tf.keras.models.load_model`. If renaming is not possible, pass the object in the `custom_objects` parameter of the load function.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.364207e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.198688e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.245955e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.248134e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.181264e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.248332e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.078876e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.448384e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.074312e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.335709e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.096230e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.091133e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.308944e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.207433e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.024249e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.158355e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.128120e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.170042e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.447332e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.246725e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.436059e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.024280e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.498955e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.417250e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.240053e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.075529e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.007732e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.016121e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+WARNING:absl:Function `_wrapped_model` contains input name(s) OFFSOURCE, ONSOURCE with unsupported characters which will be renamed to offsource, onsource in the SavedModel.
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op while saving (showing 1 of 1). These functions will not be directly callable after loading.
+WARNING:absl:<keras.saving.legacy.saved_model.load.Reshape object at 0x7f564c6082b0> has the same name 'Reshape' as a built-in Keras object. Consider renaming <class 'keras.saving.legacy.saved_model.load.Reshape'> to avoid naming conflicts when loading with `tf.keras.models.load_model`. If renaming is not possible, pass the object in the `custom_objects` parameter of the load function.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.111573e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.175192e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.031324e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.454583e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.093074e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.411428e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.337583e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.121875e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.109290e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.000447e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.044045e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.503524e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.365472e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.025886e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.339808e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.125607e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.241269e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.213567e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.231334e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.235456e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+ERROR:root:Couldn't add injections to onsource because {{function_node __wrapped__StridedSlice_device_/job:localhost/replica:0/task:0/device:GPU:0}} Expected begin, end, and strides to be 1D equal size tensors, but got shapes [1], [256], and [1] instead. [Op:StridedSlice] name: strided_slice/
+Traceback: Traceback (most recent call last):
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/dataset.py", line 220, in data
+    injection_generator.add_injections_to_onsource(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/injection.py", line 831, in add_injections_to_onsource
+    scaling_parameters : List = self.generate_scaling_parameters(mask)
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/injection.py", line 811, in generate_scaling_parameters
+    for mask, config in zip(masks, self.configs):
+  File "/home/michael.norman/.conda/envs/gravyflow-212/lib/python3.10/site-packages/tensorflow/python/framework/ops.py", line 7374, in __next__
+    result = self._tensor[self._index]
+  File "/home/michael.norman/.conda/envs/gravyflow-212/lib/python3.10/site-packages/tensorflow/python/util/traceback_utils.py", line 153, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/michael.norman/.conda/envs/gravyflow-212/lib/python3.10/site-packages/tensorflow/python/framework/ops.py", line 7262, in raise_from_not_ok_status
+    raise core._status_to_exception(e) from None  # pylint: disable=protected-access
+tensorflow.python.framework.errors_impl.InvalidArgumentError: {{function_node __wrapped__StridedSlice_device_/job:localhost/replica:0/task:0/device:GPU:0}} Expected begin, end, and strides to be 1D equal size tensors, but got shapes [1], [256], and [1] instead. [Op:StridedSlice] name: strided_slice/
+
+INFO:root:Injections failed because Graph execution error:
+
+Detected at node 'TensorScatterUpdate' defined at (most recent call last):
+    File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/dataset.py", line 210, in data
+      injections_, mask, parameters = next(injections)
+    File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/injection.py", line 589, in generate
+      next(iterator)
+    File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/injection.py", line 677, in generate_one
+      injections = gf.expand_tensor(waveforms, mask)
+    File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/maths.py", line 250, in expand_tensor
+      expanded_signal = tf.tensor_scatter_nd_update(
+Node: 'TensorScatterUpdate'
+Outer dimensions of indices and update must match. Indices shape: [122,1], updates shape:[1,2,4096]
+	 [[{{node TensorScatterUpdate}}]] [Op:__inference_expand_tensor_766989]
+Traceback: Traceback (most recent call last):
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/dataset.py", line 210, in data
+    injections_, mask, parameters = next(injections)
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/injection.py", line 589, in generate
+    next(iterator)
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/injection.py", line 677, in generate_one
+    injections = gf.expand_tensor(waveforms, mask)
+  File "/home/michael.norman/.conda/envs/gravyflow-212/lib/python3.10/site-packages/tensorflow/python/util/traceback_utils.py", line 153, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/michael.norman/.conda/envs/gravyflow-212/lib/python3.10/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Graph execution error:
+
+Detected at node 'TensorScatterUpdate' defined at (most recent call last):
+    File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/dataset.py", line 210, in data
+      injections_, mask, parameters = next(injections)
+    File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/injection.py", line 589, in generate
+      next(iterator)
+    File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/injection.py", line 677, in generate_one
+      injections = gf.expand_tensor(waveforms, mask)
+    File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/maths.py", line 250, in expand_tensor
+      expanded_signal = tf.tensor_scatter_nd_update(
+Node: 'TensorScatterUpdate'
+Outer dimensions of indices and update must match. Indices shape: [122,1], updates shape:[1,2,4096]
+	 [[{{node TensorScatterUpdate}}]] [Op:__inference_expand_tensor_766989]
+
+Traceback (most recent call last):
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 307, in <module>
+    if train_genome(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/train.py", line 186, in train_genome
+    model.train(
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/model.py", line 1112, in train
+    self.model.fit(
+  File "/home/michael.norman/.conda/envs/gravyflow-212/lib/python3.10/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/michael.norman/.conda/envs/gravyflow-212/lib/python3.10/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.UnknownError: Graph execution error:
+
+2 root error(s) found.
+  (0) UNKNOWN:  Exception: Noise failed because Graph execution error:
+
+Detected at node 'TensorScatterUpdate' defined at (most recent call last):
+    File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/dataset.py", line 210, in data
+      injections_, mask, parameters = next(injections)
+    File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/injection.py", line 589, in generate
+      next(iterator)
+    File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/injection.py", line 677, in generate_one
+      injections = gf.expand_tensor(waveforms, mask)
+    File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/maths.py", line 250, in expand_tensor
+      expanded_signal = tf.tensor_scatter_nd_update(
+Node: 'TensorScatterUpdate'
+Outer dimensions of indices and update must match. Indices shape: [122,1], updates shape:[1,2,4096]
+	 [[{{node TensorScatterUpdate}}]] [Op:__inference_expand_tensor_766989]
+Traceback: Traceback (most recent call last):
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/dataset.py", line 210, in data
+    injections_, mask, parameters = next(injections)
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/injection.py", line 589, in generate
+    next(iterator)
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/injection.py", line 677, in generate_one
+    injections = gf.expand_tensor(waveforms, mask)
+  File "/home/michael.norman/.conda/envs/gravyflow-212/lib/python3.10/site-packages/tensorflow/python/util/traceback_utils.py", line 153, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/michael.norman/.conda/envs/gravyflow-212/lib/python3.10/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Graph execution error:
+
+Detected at node 'TensorScatterUpdate' defined at (most recent call last):
+    File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/dataset.py", line 210, in data
+      injections_, mask, parameters = next(injections)
+    File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/injection.py", line 589, in generate
+      next(iterator)
+    File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/injection.py", line 677, in generate_one
+      injections = gf.expand_tensor(waveforms, mask)
+    File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/maths.py", line 250, in expand_tensor
+      expanded_signal = tf.tensor_scatter_nd_update(
+Node: 'TensorScatterUpdate'
+Outer dimensions of indices and update must match. Indices shape: [122,1], updates shape:[1,2,4096]
+	 [[{{node TensorScatterUpdate}}]] [Op:__inference_expand_tensor_766989]
+
+Traceback (most recent call last):
+
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/dataset.py", line 210, in data
+    injections_, mask, parameters = next(injections)
+
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/injection.py", line 589, in generate
+    next(iterator)
+
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/injection.py", line 677, in generate_one
+    injections = gf.expand_tensor(waveforms, mask)
+
+  File "/home/michael.norman/.conda/envs/gravyflow-212/lib/python3.10/site-packages/tensorflow/python/util/traceback_utils.py", line 153, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+
+  File "/home/michael.norman/.conda/envs/gravyflow-212/lib/python3.10/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Graph execution error:
+
+Detected at node 'TensorScatterUpdate' defined at (most recent call last):
+    File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/dataset.py", line 210, in data
+      injections_, mask, parameters = next(injections)
+    File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/injection.py", line 589, in generate
+      next(iterator)
+    File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/injection.py", line 677, in generate_one
+      injections = gf.expand_tensor(waveforms, mask)
+    File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/maths.py", line 250, in expand_tensor
+      expanded_signal = tf.tensor_scatter_nd_update(
+Node: 'TensorScatterUpdate'
+Outer dimensions of indices and update must match. Indices shape: [122,1], updates shape:[1,2,4096]
+	 [[{{node TensorScatterUpdate}}]] [Op:__inference_expand_tensor_766989]
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/home/michael.norman/.conda/envs/gravyflow-212/lib/python3.10/site-packages/tensorflow/python/ops/script_ops.py", line 267, in __call__
+    ret = func(*args)
+
+  File "/home/michael.norman/.conda/envs/gravyflow-212/lib/python3.10/site-packages/tensorflow/python/autograph/impl/api.py", line 642, in wrapper
+    return func(*args, **kwargs)
+
+  File "/home/michael.norman/.conda/envs/gravyflow-212/lib/python3.10/site-packages/tensorflow/python/data/ops/from_generator_op.py", line 198, in generator_py_func
+    values = next(generator_state.get_iterator(iterator_id))
+
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/dataset.py", line 213, in data
+    raise Exception(f"Noise failed because {e}\nTraceback: {traceback.format_exc()}")
+
+Exception: Noise failed because Graph execution error:
+
+Detected at node 'TensorScatterUpdate' defined at (most recent call last):
+    File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/dataset.py", line 210, in data
+      injections_, mask, parameters = next(injections)
+    File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/injection.py", line 589, in generate
+      next(iterator)
+    File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/injection.py", line 677, in generate_one
+      injections = gf.expand_tensor(waveforms, mask)
+    File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/maths.py", line 250, in expand_tensor
+      expanded_signal = tf.tensor_scatter_nd_update(
+Node: 'TensorScatterUpdate'
+Outer dimensions of indices and update must match. Indices shape: [122,1], updates shape:[1,2,4096]
+	 [[{{node TensorScatterUpdate}}]] [Op:__inference_expand_tensor_766989]
+Traceback: Traceback (most recent call last):
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/dataset.py", line 210, in data
+    injections_, mask, parameters = next(injections)
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/injection.py", line 589, in generate
+    next(iterator)
+  File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/injection.py", line 677, in generate_one
+    injections = gf.expand_tensor(waveforms, mask)
+  File "/home/michael.norman/.conda/envs/gravyflow-212/lib/python3.10/site-packages/tensorflow/python/util/traceback_utils.py", line 153, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/michael.norman/.conda/envs/gravyflow-212/lib/python3.10/site-packages/tensorflow/python/eager/execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.InvalidArgumentError: Graph execution error:
+
+Detected at node 'TensorScatterUpdate' defined at (most recent call last):
+    File "/home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/gravyflow/dataset.py", line 210, i [Op:__inference_test_function_254665]
+INFO:root:TensorFlow version: 2.12.1, CUDA version: 11.8
+INFO:root:[PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')]
+INFO:root:Loading model from /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_98
+INFO:root:Resuming from 3, current history : {'binary_accuracy': [0.732421875, 0.7548699975013733, 0.8040400147438049], 'loss': [0.5908321738243103, 0.6718493700027466, 0.5386945009231567], 'val_binary_accuracy': [0.5185546875, 0.8088942170143127, 0.8441506624221802], 'val_loss': [0.893850564956665, 0.4983363449573517, 0.4069855511188507]}
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.128095e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.432174e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.216952e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.109034e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.130971e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.268347e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.126885e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.151208e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.194056e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.165578e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.030073e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.096537e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.001476e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.258696e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.028158e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.180785e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.519566e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.252382e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.221356e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.161706e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.371481e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.139039e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.351006e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.027160e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.123697e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.103440e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.270178e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.009346e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.198092e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.018888e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+INFO:validator:The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_98/validation_data.h5 was opened in w mode.
+INFO:validator:Calculating efficiency scores for model_98...
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.111657e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.073363e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.078743e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.180198e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.519708e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.163936e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.260001e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.061664e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.014222e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.099502e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.299996e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.049971e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.168526e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.020533e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.084213e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.220052e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.301764e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.079569e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.120136e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.137555e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.045730e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.338352e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.046576e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.094941e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.165426e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.195171e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.316279e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.010926e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.231455e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.122819e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.380215e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.131262e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.433323e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.248349e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.147613e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.093684e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.034655e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.364214e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.018995e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.002679e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.191190e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.138366e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.111476e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.057723e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.283291e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.051381e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.275764e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.060762e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.216665e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.096606e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.200928e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.044220e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.239196e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.262435e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.070778e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.317989e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.024916e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.154715e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.190138e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.285968e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.123895e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.275320e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.225697e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.211176e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.116890e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.106440e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.027580e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.415534e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.217189e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.373560e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.133060e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.014721e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.228528e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.300032e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.052593e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.091819e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.005389e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.215166e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.032252e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.208591e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.349372e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.459591e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.431399e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.226462e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.044948e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.147633e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.239556e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.291364e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.270736e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.094072e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.324730e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.443158e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.578892e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.036252e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.238599e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.349963e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.026568e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.139456e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.260725e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.070036e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.152584e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.356990e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.375882e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.121817e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.426920e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.147049e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.084304e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.148597e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.112149e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.354313e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.198758e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.186729e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.073490e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.133586e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.309029e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.413235e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.128287e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.158068e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.184485e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.269601e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.017425e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.085404e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.098342e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.363470e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.295787e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.056509e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.169267e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.237777e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.024819e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.013502e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.078729e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+INFO:validator:The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_98/validation_data.h5 was opened in a mode.
+INFO:validator:Done
+INFO:validator:Calculating FAR scores for model_98...
+INFO:validator:The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_98/validation_data.h5 was opened in a mode.
+INFO:validator:Saving FAR Scores!
+INFO:validator:Done
+INFO:validator:Collecting ROC data for model_98...
+INFO:validator:The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_98/validation_data.h5 was opened in a mode.
+INFO:validator:Saving ROC data keys.
+INFO:validator:The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_98/validation_data.h5 was opened in r mode.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.181629e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.045224e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.030684e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.124310e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.020084e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.406569e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.347645e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.051507e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.047759e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.298607e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.014966e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.042096e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.037432e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.039069e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.305901e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.528404e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.087225e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.290437e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.229894e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.309011e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.000079e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.226159e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.192884e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.512508e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+Warning - checkFreqeuncyParameters: Large value of starting_frequency = 4.022076e+01 (hz)requested.
+ Check for errors, the signal will start in band.
+INFO:validator:The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_98/validation_data.h5 was opened in a mode.
+INFO:validator:Save roc data 8.0!
+INFO:validator:Save roc data 8.0_fpr!
+INFO:validator:Save roc data 8.0_tpr!
+INFO:validator:Done
+/home/michael.norman/.conda/envs/gravyflow-212/lib/python3.10/site-packages/scipy/interpolate/_interpolate.py:701: RuntimeWarning: divide by zero encountered in divide
+  slope = (y_hi - y_lo) / (x_hi - x_lo)[:, None]
+/home/michael.norman/.conda/envs/gravyflow-212/lib/python3.10/site-packages/scipy/interpolate/_interpolate.py:704: RuntimeWarning: invalid value encountered in multiply
+  y_new = slope*(x_new - x_lo)[:, None] + y_lo
+INFO:root:Training completed, do a shot!

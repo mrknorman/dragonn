@@ -1,0 +1,46 @@
+Attempt 2: Restarting training from where we left off...
+path /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_40/history.hdf5
+path /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_40/history.hdf5
+path /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_40/history.hdf5
+{'binary_accuracy': [0.57421875], 'loss': [0.7072342038154602], 'val_binary_accuracy': [0.45703125], 'val_loss': [0.7830058932304382]}
+Epoch 2/1000
+Data saved to new file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_40/history.hdf5
+
+Best model so far had a value of: 0.6953209638595581 at Epoch: 1 which was 0 epochs ago.
+3125/3125 - 439s - loss: 0.6988 - binary_accuracy: 0.5020 - val_loss: 0.6953 - val_binary_accuracy: 0.4969 - 439s/epoch - 140ms/step
+Epoch 3/1000
+Data saved to new file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_40/history.hdf5
+
+Best model so far had a value of: 0.6948142647743225 at Epoch: 2 which was 0 epochs ago.
+3125/3125 - 418s - loss: 0.6960 - binary_accuracy: 0.4995 - val_loss: 0.6948 - val_binary_accuracy: 0.4980 - 418s/epoch - 134ms/step
+Epoch 4/1000
+Failed to get data because:
+{{function_node __wrapped__StridedSlice_device_/job:localhost/replica:0/task:0/device:GPU:0}} Expected begin, end, and strides to be 1D equal size tensors, but got shapes [256], [1], and [1] instead. [Op:StridedSlice] name: strided_slice/
+Subarrays returned None!
+Background Chunks returned None!
+start_gps_times returned None!
+Data saved to new file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_40/history.hdf5
+
+Best model so far had a value of: 0.6948142647743225 at Epoch: 2 which was 1 epochs ago.
+3125/3125 - 405s - loss: 0.6955 - binary_accuracy: 0.4994 - val_loss: 0.6997 - val_binary_accuracy: 0.5013 - 405s/epoch - 130ms/step
+Data appended to /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_40/metrics
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_40/validation_data.h5 was opened in w mode.
+Calculating efficiency scores for model_40...
+7936/7936 - 987s - 987s/epoch - 124ms/step
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_40/validation_data.h5 was opened in a mode.
+Done
+Calculating FAR scores for model_40...
+3125/3125 - 300s - 300s/epoch - 96ms/step
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_40/validation_data.h5 was opened in a mode.
+Saving FAR Scores!
+Done
+Collecting ROC data for model_40...
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_40/validation_data.h5 was opened in a mode.
+Saving ROC data keys.
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_40/validation_data.h5 was opened in r mode.
+3125/3125 - 391s - 391s/epoch - 125ms/step
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_40/validation_data.h5 was opened in a mode.
+Save roc data 8.0!
+Save roc data 8.0_fpr!
+Save roc data 8.0_tpr!
+Done

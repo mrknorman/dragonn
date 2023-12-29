@@ -1,0 +1,31 @@
+Attempt 2: Restarting training from where we left off...
+path /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_38/history.hdf5
+path /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_38/history.hdf5
+path /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_38/history.hdf5
+{'binary_accuracy': [0.4921875], 'loss': [0.7470659017562866], 'val_binary_accuracy': [0.5546875], 'val_loss': [0.695429265499115]}
+Epoch 2/1000
+Data saved to new file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_38/history.hdf5
+
+Best model so far had a value of: 0.695429265499115 at Epoch: 1 which was 1 epochs ago.
+3125/3125 - 404s - loss: 0.6940 - binary_accuracy: 0.5156 - val_loss: 0.6972 - val_binary_accuracy: 0.5250 - 404s/epoch - 129ms/step
+Data appended to /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_38/metrics
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_38/validation_data.h5 was opened in w mode.
+Calculating efficiency scores for model_38...
+7936/7936 - 940s - 940s/epoch - 118ms/step
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_38/validation_data.h5 was opened in a mode.
+Done
+Calculating FAR scores for model_38...
+3125/3125 - 270s - 270s/epoch - 87ms/step
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_38/validation_data.h5 was opened in a mode.
+Saving FAR Scores!
+Done
+Collecting ROC data for model_38...
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_38/validation_data.h5 was opened in a mode.
+Saving ROC data keys.
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_38/validation_data.h5 was opened in r mode.
+3125/3125 - 352s - 352s/epoch - 113ms/step
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_38/validation_data.h5 was opened in a mode.
+Save roc data 8.0!
+Save roc data 8.0_fpr!
+Save roc data 8.0_tpr!
+Done

@@ -1,0 +1,31 @@
+Attempt 2: Restarting training from where we left off...
+path /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_80/history.hdf5
+path /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_80/history.hdf5
+path /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_80/history.hdf5
+{'binary_accuracy': [0.87109375], 'loss': [0.5524305701255798], 'val_binary_accuracy': [0.501953125], 'val_loss': [0.7320899963378906]}
+Epoch 2/1000
+Data saved to new file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_80/history.hdf5
+
+Best model so far had a value of: 0.7320899963378906 at Epoch: 1 which was 1 epochs ago.
+3125/3125 - 411s - loss: 0.7011 - binary_accuracy: 0.5321 - val_loss: 0.8296 - val_binary_accuracy: 0.5025 - 411s/epoch - 132ms/step
+Data appended to /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_80/metrics
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_80/validation_data.h5 was opened in w mode.
+Calculating efficiency scores for model_80...
+7936/7936 - 967s - 967s/epoch - 122ms/step
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_80/validation_data.h5 was opened in a mode.
+Done
+Calculating FAR scores for model_80...
+3125/3125 - 295s - 295s/epoch - 94ms/step
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_80/validation_data.h5 was opened in a mode.
+Saving FAR Scores!
+Done
+Collecting ROC data for model_80...
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_80/validation_data.h5 was opened in a mode.
+Saving ROC data keys.
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_80/validation_data.h5 was opened in r mode.
+3125/3125 - 376s - 376s/epoch - 120ms/step
+The file /home/michael.norman/data_ad_infinitum/chapter_05_dragonn/dragonn/population/model_80/validation_data.h5 was opened in a mode.
+Save roc data 8.0!
+Save roc data 8.0_fpr!
+Save roc data 8.0_tpr!
+Done
